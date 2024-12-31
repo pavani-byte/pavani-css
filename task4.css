@@ -1,0 +1,14 @@
+.parent{
+    height: 500px;
+    width: 100%;
+    border: 10px solid pink;
+    background-color:lightblue;
+}
+.child{
+    height:200px;
+    width: 300px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-left:700px ;
+    border: 5px solid lightgreen;
+}
