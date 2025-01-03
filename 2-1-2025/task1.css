@@ -1,0 +1,17 @@
+.outer-box{
+    border: 2px solid black;
+    width:500px;
+    height:500px;
+    padding:20px;
+    position: relative;
+}
+.inner-box{
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+    
+    position: absolute;
+    top: 210px;
+    left: 210px;
+
+}
