@@ -1,0 +1,23 @@
+.tooltip-container{
+    position: relative;
+    display: inline-block;
+    left: 100px;
+    top: 200px;
+
+}
+.tooltip{
+    position:absolute;
+    left: 100px;
+    bottom: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    translate:translateX(-50%) ;
+}
+.tooltip-container:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
