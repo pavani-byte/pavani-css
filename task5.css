@@ -1,12 +1,14 @@
-.box1{
-    margin-top: 30px;
-border: 2px solid pink;
-width:500px;
+.image-container{
+    border: 2px solid black;
+    width:500px;
+    height:500px;
+    padding:20px;
+    position: relative;
 
 }
-.box2{
-    margin-bottom: 30px;
-    border: 2px solid lightgreen;
-    width:500px;
+.overlay{
+    position: absolute;
+    top:100px;
+    right: 100px;
     
 }
